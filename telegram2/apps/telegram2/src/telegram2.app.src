@@ -1,0 +1,18 @@
+{application, telegram2,
+ [{description, "An OTP application"},
+  {vsn, "0.1.0"},
+  {registered, []},
+  {mod, {telegram2_app, []}},
+  {applications,
+   [kernel,
+    stdlib,
+    cowboy,
+    gun,
+    jsone
+   ]},
+  {env,[]},
+  {modules, []},
+
+  {licenses, ["Apache 2.0"]},
+  {links, []}
+ ]}.
